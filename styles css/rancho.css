@@ -1,0 +1,167 @@
+@media(max-width:720px) {
+
+    .conteudo_todo {
+        width: 100%;
+        padding: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .bloco__fotos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: rgba(8, 68, 110, 0.618);
+    color: rgb(0, 0, 0);
+}
+
+
+
+.cabecalho {
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.navegacao {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botoes__navegacao {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    border: 0.4rem inset rgb(255, 255, 255);
+    background-color: transparent;
+    border-radius: 0.3rem;
+    width: 6rem;
+    padding: 0.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.botoes__navegacao:hover {
+    background-color: rgba(255, 255, 255, 0.452);
+    border-radius: 1rem;
+
+}
+
+.apresetacao__fotos {
+    font-weight: 500;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+
+}
+
+.bloco__fotos {
+    gap: 4rem;
+}
+
+.lista__foto {
+
+    border: 0.2rem solid white;
+    max-width: 24rem;
+    max-height: 13rem;
+
+}
+
+.conteudo_todo {
+    font-weight: 500;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    background-image: url("/assets/corumbas4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.titulo {
+    font-size: 3rem;
+    font-family: cursive
+}
+
+
+
+.texto {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.botoes_sociais {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    gap: 3rem;
+}
+
+.botao_link {
+    border: 0.3rem inset rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    width: 12rem;
+    height: 1.5rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(250, 235, 215, 0.377);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.botao_link:hover {
+    background-color: rgba(255, 255, 255, 0.452);
+    border-radius: 7rem;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin-bottom: 0%;
+    padding: 3%;
+
+}
+
+.titulo__rodape {
+    text-decoration: overline;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
